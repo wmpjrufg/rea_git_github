@@ -103,18 +103,23 @@ A Tabela a seguir, apresenta as principais diferenças entre os dois conceitos:
   </tr>
   <tr>
     <td>Ferramenta de desenvolvedor</td>
-    <td>Interface gráfica + colaboração online|</td>
+    <td>Interface gráfica + colaboração online</td>
   </tr>
  
 </table>
 
+
+# Exemplo básico:
+git init                     # Inicia um repositório Git local
+git remote add origin https://github.com/usuario/repositorio.git
+git add .                    # Adiciona todos os arquivos
+git commit -m "primeiro commit"
+git push -u origin main      # Envia para o GitHub
+
 </p>
 <p align = "justify">
 
-Assim, as duas plataformas trabalhando em cojuntoVocê usa Git no seu computador para controlar seu código.
-
-
-Você envia esse código para o GitHub para backup e colaboração.
+Assim, com as duas plataformas trabalhando em cojunto, é possível usar o Git no computador para controlar seu código e em sequência, enviar esse código para o GitHub para backup e colaboração.
 
 
 <p align = "justify">
