@@ -46,13 +46,9 @@ Além disso, o controle de versão permite que várias pessoas trabalhem no mesm
 Com relaçao segurança, com o repositório salvo no Git (e idealmente em um serviço como GitHub/GitLab), se alguém apagar um arquivo acidentalmente, é fácil recuperar
 
 Se o projeto apresentar falha após uma alteração, pode voltar para uma versão que funcionava anteriormente, pois  o código fica salvo remotamente, como um backup.
-<br><br>
 
 Outro aspecto importante é referente a rastreabilidade.  É possível ver as diferenças entre versões (git diff), podendo associar cada atualização a um issue ou pull request.
 </p>
-
-
-
 
 
 <p align = "justify">
@@ -64,7 +60,7 @@ A <a href = "#fig01">Figura 0.1</a> apresenta algumas ferramentas que controlam 
   <tr>
     <td><center><img src="assets/images/fig01.png" width="60%"></center></td>
     <td><center><img src="assets/images/fig02.png" width="60%"></center></td>
-    <td><center><img src="assets/images/fig03.svg" width="600%"></center></td>
+    <td><center><img src="assets/images/fig03.svg" width="60%"></center></td>
   </tr>
 </thead>
 </table>
