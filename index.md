@@ -80,12 +80,8 @@ Existem outras plataformas similares, como:
 - Bitbucket
 - Azure DevOps
 
-| Git    |   GitHub |
-|  :---:  |  :----:  |  :---:  |
-| Programa Local | Plataforma online |
-| Salva e controla versões   | Hospeda os repositórios Git    |
-| Funciona offline   | Funciona na web      |
-|Ferramenta de desenvolvedor|Interface gráfica + colaboração online|
+markdown | Git | GitHub | | :---: | :----: | :---: | | Programa Local | Plataforma online | | Salva e controla versões | Hospeda os repositórios Git | | Funciona offline | Funciona na web | |Ferramenta de desenvolvedor|Interface gráfica +colaboração online|
+
 </p>
 
 
