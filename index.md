@@ -109,7 +109,7 @@ A Tabela a seguir, apresenta as principais diferenças entre os dois conceitos:
 </table>
 
 
-# Exemplo básico:
+Exemplo básico:<br></br>
 git init                     # Inicia um repositório Git local <br></br>
 git remote add origin https://github.com/usuario/repositorio.git<br></br>
 git add .                    # Adiciona todos os arquivos<br></br>
