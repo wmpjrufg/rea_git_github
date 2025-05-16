@@ -122,7 +122,7 @@ git push -u origin main      # Envia para o GitHub<br></br>
 Assim, com as duas plataformas trabalhando em cojunto, é possível usar o Git no computador para controlar seu código e em sequência, enviar esse código para o GitHub para backup e colaboração.
 
 PRÉ-REQUISITOS
-- Ter o Git instalado (instalar aqui)
+- Ter o Git instalado     <li><a href = "https://github.com">Plataforma Git</a>;</li>
 - Ter uma conta no GitHub
 - Ter um projeto local (ou pode criar uma pasta de teste)
 </p>
