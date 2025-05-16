@@ -47,7 +47,7 @@ Com relaçao segurança, com o repositório salvo no Git (e idealmente em um ser
 
 Se o projeto apresentar falha após uma alteração, pode voltar para uma versão que funcionava anteriormente, pois  o código fica salvo remotamente, como um backup.
 
-Outro aspecto importante é referente a rastreabilidade.  É possível ver as diferenças entre versões (git diff), podendo associar cada atualização a um issue ou pull request.
+Outro aspecto importante é referente a rastreabilidade.  É possível ver as diferenças entre versões (git diff), podendo associar cada atualização a um issue ou pull request, o que permite aos membros das equipes de desenvolvimento, exercerem um trabalho remoto e desempenhar um trabalho off-line (em sua cópia local), sendo necessário a conexão para enviar suas mudanças (push/pull)
 </p>
 
 
