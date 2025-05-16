@@ -80,14 +80,41 @@ Existem outras plataformas similares, como:
 - Bitbucket
 - Azure DevOps
 
- | Git | GitHub | 
- | :---: | :----: | :---: | 
- | Programa Local | Plataforma online | 
- | Salva e controla versões | Hospeda os repositórios Git | 
- | Funciona offline | Funciona na web | 
- |Ferramenta de desenvolvedor|Interface gráfica +colaboração online|
+A Tabela a seguir, apresenta as principais diferenças entre os dois conceitos:
+ <table>
+  <tr>
+    <th>Git</th>
+    <th>GitHub</th>
+  </tr>
+  <tr>
+    <td>Programa Local</td>
+        <td>Plataforma online </td>
+
+  </tr>
+  <tr>
+    <td>Salva e controla versões</td>
+        <td>Hospeda os repositórios Git </td>
+
+  </tr>
+  <tr>
+    <td>Funciona offline</td>
+        <td>Funciona na web</td>
+
+  </tr>
+  <tr>
+    <td>Ferramenta de desenvolvedor</td>
+    <td>Interface gráfica + colaboração online|</td>
+  </tr>
+ 
+</table>
 
 </p>
+<p align = "justify">
+
+Assim, as duas plataformas trabalhando em cojuntoVocê usa Git no seu computador para controlar seu código.
+
+
+Você envia esse código para o GitHub para backup e colaboração.
 
 
 <p align = "justify">
@@ -102,6 +129,7 @@ Vamos iniciar este material pela instalação dos recursos necessários para uso
 <p align = "justify">
 Após a instalação é necessário criar uma conta no repositório <i>online</i> <a href = "https://github.com/">GitHub</a>.
 </p>
+<p align = "justify">
 
 {: .highlight-title }
 > Testando o git
