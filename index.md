@@ -66,14 +66,23 @@ A <a href = "#fig01">Figura 0.1</a> apresenta algumas ferramentas que controlam 
 </table>
 <p align = "left" id = "fig01"><b>Figura 0.1</b> Plataformas de controle de versão.</p>
 
-<h1>O que é Git e por que ele é usado?</h1>
+<h1>O que é Git e GitHub?</h1>
 
 <p align = "justify">
 Git é um sistema de controle de versão distribuído, e serve para facilitar a edição do código-fonte de um projeto por múltiplos usuários de forma simultânea sem que as alterações sobrescrevam outras, e caso haja edições no mesmo local de um repositório (nome dado ao diretório de um projeto), por exemplo, o controle de versão armazena todo o histórico de alterações, sendo possível retornar à versão anterior do projeto, ou seja, à última vez em que ele foi salvo. Além disso, é possível saber que alterações foram feitas no projeto e por quem, o que facilita o controle.
+  
+Considere como exemplo o Google Docs, mas para código, onde é possível: visualizar o histórico completo, voltar para versões antigas e criar "cópias" (branches) para testar uma nova funcionalidade, por exemplo.
+
+ Git e GitHub são conceitos diferentes. O GitHub é uma plataforma online que utiliza repositórios Git na nuvem como controlador de versão e permite e colabora com outras pessoas. No GitHub é possível armazenar seu código versionado com Git, compartilhar projetos com outras pessoas, trabalhar em equipe com controle de acesso, fazer pull requests, revisar código, automatizar testes, etc.
+
+Existem outras plataformas similares, como:
+- GitLab
+- Bitbucket
+- Azure DevOps
+
+
 </p>
 
-{: .note }
-> Git e GitHub são conceitos diferentes. O GitHub é uma plataforma <i>web</i> que utiliza a o Git como <i>framework</i> controlador de versão.
 
 <p align = "justify">
 Vamos iniciar este material pela instalação dos recursos necessários para uso do Git em um computador seja ele Linux ou Windows. Vamos instalar os seguintes programas:<br>
