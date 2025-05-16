@@ -110,11 +110,11 @@ A Tabela a seguir, apresenta as principais diferenças entre os dois conceitos:
 
 
 # Exemplo básico:
-git init                     # Inicia um repositório Git local
-git remote add origin https://github.com/usuario/repositorio.git
-git add .                    # Adiciona todos os arquivos
-git commit -m "primeiro commit"
-git push -u origin main      # Envia para o GitHub
+git init                     # Inicia um repositório Git local <br></br>
+git remote add origin https://github.com/usuario/repositorio.git<br></br>
+git add .                    # Adiciona todos os arquivos<br></br>
+git commit -m "primeiro commit"<br></br>
+git push -u origin main      # Envia para o GitHub<br></br>
 
 </p>
 <p align = "justify">
