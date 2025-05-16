@@ -81,6 +81,7 @@ Existem outras plataformas similares, como:
 - Azure DevOps
 
 | Git    |   GitHub |
+|  :---:  |  :----:  |  :---:  |
 | Programa Local | Plataforma online |
 | Salva e controla versões   | Hospeda os repositórios Git    |
 | Funciona offline   | Funciona na web      |
