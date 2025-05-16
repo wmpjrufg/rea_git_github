@@ -37,6 +37,33 @@ Um controle de versão simplificado poderia ser por representado por um usuário
 </p>
 
 <p align = "justify">
+
+O controle de versão (como o Git) é essencial em um repositório de software porque ele resolve vários problemas fundamentais do desenvolvimento.
+<br><br>
+
+Você pode ver quem fez o quê, quando, e por quê, sendo portanto, útil para 
+encontrar erros introduzidos em alterações passadas, reverter para versões anteriores e acompanhar o progresso e a evolução do projeto. 
+<br><br>
+
+Além disso, o controle de versão permite que várias pessoas trabalhem no mesmo código ao mesmo tempo, pois cada pessoa pode ter sua própria branch (ramo), evitando sobrescrever o trabalho dos outros, mas tambem mesclar as alterações quando necessário
+<br><br>
+
+Com relaçao segurança, com o repositório salvo no Git (e idealmente em um serviço como GitHub/GitLab), se alguém apagar um arquivo acidentalmente, é fácil recuperar
+
+<br><br>
+
+Se o projeto apresentar falha após uma alteração, pode voltar para uma versão que funcionava anteriormente, pois  o código fica salvo remotamente, como um backup.
+<br><br>
+
+outro aspecto importante é referente a rastreabilidade.  É possível ver as diferenças entre versões (git diff), podendo associar cada atualização a um issue ou pull request.
+
+</p>
+
+
+
+
+
+<p align = "justify">
 A <a href = "#fig01">Figura 0.1</a> apresenta algumas ferramentas que controlam a revisão de código.
 </p>
 
