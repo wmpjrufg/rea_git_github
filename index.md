@@ -121,6 +121,12 @@ git push -u origin main      # Envia para o GitHub<br></br>
 
 Assim, com as duas plataformas trabalhando em cojunto, é possível usar o Git no computador para controlar seu código e em sequência, enviar esse código para o GitHub para backup e colaboração.
 
+PRÉ-REQUISITOS
+- Ter o Git instalado (instalar aqui)
+- Ter uma conta no GitHub
+- Ter um projeto local (ou pode criar uma pasta de teste)
+</p>
+
 
 <p align = "justify">
 Vamos iniciar este material pela instalação dos recursos necessários para uso do Git em um computador seja ele Linux ou Windows. Vamos instalar os seguintes programas:<br>
