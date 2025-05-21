@@ -157,18 +157,22 @@ A seguir, é descrito os principais para a instalaçao do git:
 
 
 5- No terminal do computador, verifique se o git foi instalado corretamente: 
+```bash
+
 $ git --version
+```
 
 Deve retornar algo como: git version 2.xx.x
-
-
-
 <p align = "justify">
 Após a instalação é necessário criar uma conta no repositório <i>online</i> <a href = "https://github.com/">GitHub</a>.
-Após a criação do login, você pode configurar seu nome e email para usar com Git/GitHub:
+Após a criação do login, você pode configurar seu nome e email para usar com Git/GitHub:</p>
+```bash
 $ git config --global user.name "Seu Nome"
 $ git config --global user.email "seu@email.com"
-</p>
+```
+
+
+
 <p align = "justify">
 
 <h1>Instalando o GitHub no VSCode</h1>
