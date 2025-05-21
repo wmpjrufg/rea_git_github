@@ -109,6 +109,7 @@ A Tabela a seguir, apresenta as principais diferenças entre os dois conceitos:
 </table>
 
 
+
 Exemplo básico:<br></br>
 git init                     # Inicia um repositório Git local <br></br>
 git remote add origin https://github.com/usuario/repositorio.git<br></br>
@@ -129,7 +130,7 @@ PRÉ-REQUISITOS
 
 
 <p align = "justify">
-Vamos iniciar este material pela instalação dos recursos necessários para uso do Git em um computador seja ele Linux ou Windows. Vamos instalar os seguintes programas:<br>
+Em sequência, vamos iniciar este material pela instalação dos recursos necessários para uso do Git em um computador seja ele Linux ou Windows. Vamos instalar os seguintes programas:<br>
 </p>
 
 <ol>
@@ -137,19 +138,69 @@ Vamos iniciar este material pela instalação dos recursos necessários para uso
     <li><a href = "https://code.visualstudio.com">Visual Studio Code</a>;</li>
 </ol>
 
+<h1>Instalando o Git no Windows</h1>
+
+A seguir, é descrito os principais para a instalaçao do git:
+
+1- Acesse: https://git-scm.com/download/win para fazer o download do instalador
+
+2- Execute o instalador (.exe).
+
+
+3- Durante a instalação, deixe as opções padrão, exceto quando aparecer "Choose the default editor used by Git", que pode ser por exemplo:
+ Visual Studio Code software.
+ 4- Na opção "Adjusting your PATH environment", escolha: "Git from the command line and also from 3rd-party software" 
+
+
+
+4- Finalize a instalação.
+
+
+5- No terminal do computador, verifique se o git foi instalado corretamente: 
+$ git --version
+
+Deve retornar algo como: git version 2.xx.x
+
+
+
 <p align = "justify">
 Após a instalação é necessário criar uma conta no repositório <i>online</i> <a href = "https://github.com/">GitHub</a>.
+Após a criação do login, você pode configurar seu nome e email para usar com Git/GitHub:
+$ git config --global user.name "Seu Nome"
+$ git config --global user.email "seu@email.com"
 </p>
 <p align = "justify">
 
-{: .highlight-title }
-> Testando o git
->
-> Para verificar se o git foi instalado corretamente. Reinicie o computador vá até o terminal do seu computador e digite o seguinte comando: `git --version`.Provavelmente após a execução aparecerá no terminal a versão do git, por exemplo: `git version 2.34.1`.
+<h1>Instalando o GitHub no VSCode</h1>
+<p align = "justify">
 
+É possível acessar o GitHub diretamente a partir do IDE. Em particular, serão mostrados os passos necessários para configurar o GitHub no VSCode.
+1- Instalar o Visual Studio Code no Windows: https://code.visualstudio.com/
+2- Clique em Download for Windows ou macOS.
+3- Execute o instalador:
+4- No Windows, marque a opção "Add to PATH" e "Register Code as editor".
+5- Após instalar, abra o VSCode.
+6- Vá até a aba de extensões (ícone de quadrado no menu lateral esquerdo ou Ctrl+Shift+X)
+7- Procure por GitHub e instale: GitHub Pull Requests and Issues (oficial da Microsoft)
+8- Opcional: GitLens (melhora a visualização do histórico Git)
+</p>
+<p align = "justify">
+
+  Ao usar o Git pela primeira vez  no VSCode:
+1- Abra o terminal do VSCode (Ctrl+`` ou Terminal > New Terminal`)
+2- Tente um comando Git, por exemplo: git clone https://github.com/seu-usuario/seu-repo.git
+3- Se for sua primeira vez, o VSCode vai abrir uma janela solicitando que você faça login com sua conta GitHub
+4- Autorize o VSCode a acessar seu GitHub
+</p>
 <p align = "justify">
 Após o comando mostrado acima você pode verificar se o Git foi instalado corretamente no Visual Studio Code conforme a <a href = "#fig02">Figura 0.2</a>. Caso o símbolo de árvore de arquivos esteja presente a instalação foi bem sucedida.  
 </p>
 
 <center><img src = "assets/images/fig04.png" width = "100%"></center>
 <p align = "left" id = "fig02"><b>Figura 0.2</b> Árvore de arquivos controlados pelo Git no Visual Studio Code.</p>
+
+
+<p align = "justify">
+  Assim,  a integração ativa é possível 
+ver branches, commits e diffs no painel Source Control (ícone de ramificação), fazer commits, pull, push, tudo pelo VSCode. Além disso, pode-se criar e revisar pull requests (com a extensão GitHub), resolver conflitos visuais entre branches e por fim, visualizar quem alterou cada linha de código (com GitLens)
+</p>
