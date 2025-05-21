@@ -111,12 +111,14 @@ A Tabela a seguir, apresenta as principais diferenças entre os dois conceitos:
 
 
 Exemplo básico:<br></br>
+```bash
+
 git init                     # Inicia um repositório Git local <br></br>
 git remote add origin https://github.com/usuario/repositorio.git<br></br>
 git add .                    # Adiciona todos os arquivos<br></br>
 git commit -m "primeiro commit"<br></br>
 git push -u origin main      # Envia para o GitHub<br></br>
-
+```
 </p>
 <p align = "justify">
 
@@ -142,21 +144,21 @@ Em sequência, vamos iniciar este material pela instalação dos recursos necess
 
 A seguir, é descrito os principais para a instalaçao do git:
 
-1- Acesse: https://git-scm.com/download/win para fazer o download do instalador
+- Acesse: https://git-scm.com/download/win para fazer o download do instalador
 
-2- Execute o instalador (.exe).
+- Execute o instalador (.exe).
 
 
-3- Durante a instalação, deixe as opções padrão, exceto quando aparecer "Choose the default editor used by Git", que pode ser por exemplo:
+- Durante a instalação, deixe as opções padrão, exceto quando aparecer "Choose the default editor used by Git", que pode ser por exemplo:
  Visual Studio Code software.
- 4- Na opção "Adjusting your PATH environment", escolha: "Git from the command line and also from 3rd-party software" 
+  - Na opção "Adjusting your PATH environment", escolha: "Git from the command line and also from 3rd-party software" 
 
 
 
-4- Finalize a instalação.
+- Finalize a instalação.
 
 
-5- No terminal do computador, verifique se o git foi instalado corretamente: 
+- No terminal do computador, verifique se o git foi instalado corretamente: 
 ```bash
 
 $ git --version
@@ -180,12 +182,19 @@ $ git config --global user.email "seu@email.com"
 
 É possível acessar o GitHub diretamente a partir do IDE. Em particular, serão mostrados os passos necessários para configurar o GitHub no VSCode.</p>
 1- Instalar o Visual Studio Code no Windows: https://code.visualstudio.com/
+
 2- Clique em Download for Windows ou macOS.
-3- Execute o instalador:
+
+3- Execute o instalador.
+
 4- No Windows, marque a opção "Add to PATH" e "Register Code as editor".
+
 5- Após instalar, abra o VSCode.
+
 6- Vá até a aba de extensões (ícone de quadrado no menu lateral esquerdo ou Ctrl+Shift+X)
+
 7- Procure por GitHub e instale: GitHub Pull Requests and Issues (oficial da Microsoft)
+
 8- Opcional: GitLens (melhora a visualização do histórico Git)
 
 <p align = "justify">
