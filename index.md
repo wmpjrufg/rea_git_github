@@ -202,9 +202,13 @@ $ git config --global user.email "seu@email.com"
   Ao usar o Git pela primeira vez  no VSCode:</p>
 
 1- Abra o terminal do VSCode (Ctrl+`` ou Terminal > New Terminal`)
+
 2- Tente um comando Git, por exemplo: git clone https://github.com/seu-usuario/seu-repo.git
+
 3- Se for sua primeira vez, o VSCode vai abrir uma janela solicitando que você faça login com sua conta GitHub
+
 4- Autorize o VSCode a acessar seu GitHub
+
 <p align = "justify">
 Após o comando mostrado acima você pode verificar se o Git foi instalado corretamente no Visual Studio Code conforme a <a href = "#fig02">Figura 0.2</a>. Caso o símbolo de árvore de arquivos esteja presente a instalação foi bem sucedida.  
 </p>
